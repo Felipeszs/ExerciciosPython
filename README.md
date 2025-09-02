@@ -4,10 +4,10 @@
 Conteúdos e Exercícios da disciplina de Linguagem de Programação do curso de Tecnologia em Análise e Desenvolvimento de Sistemas da Fatec de São José do Rio Preto
 
 #### 1. Conteúdo Programático
-- [x] Variáveis, constantes, operadores e expressões (19/08/2025)
-- [ ] Estruturas condicionais
-- [ ] Estruturas de repetição
-- [ ] Lista, Tupla, Conjunto e Dicionário
-- [ ] Funções
-- [ ] Arquivo
-- [ ] Tipo definido pelo usuário (classes)
+- [x] Tópico 01 - Variáveis, constantes, operadores e expressões (19/08/2025)
+- [x] Tópico 02 - Estruturas condicionais (02/09/2025)
+- [ ] Tópico 03 - Estruturas de repetição
+- [ ] Tópico 04 - Lista, Tupla, Conjunto e Dicionário
+- [ ] Tópico 05 - Funções
+- [ ] Tópico 06 - Arquivo
+- [ ] Tópico 07 - Tipo definido pelo usuário (classes)
