@@ -3,3 +3,14 @@
 # escrever uma mensagem na tela avisando que o usuário levou
 # uma multa e o valor a ser pago. Considere R$ 7 reais por
 # cada Km acima do limite.
+
+LIMITE = 80
+VALOR_MULTA = 7.0
+
+velocidade = int(input('Digite a velocidade: '))
+
+if velocidade > LIMITE:
+    diferenca = velocidade - LIMITE
+    multa = diferenca * VALOR_MULTA
+    print(f'Você levou uma multa de R$ {multa:.2f}')
+

@@ -7,3 +7,14 @@
 #  Acima de 300 kWh: R$ 0,70 por kWh
 # O programa deverá receber a quantidade de kWh e mostrar o valor total
 # a ser pago pelo cliente.
+
+consumo_mensal = int(input('Digite o consumo mensal: '))
+
+if consumo_mensal < 50:
+    print(consumo_mensal * 0.30)
+elif consumo_mensal < 150:
+    print(consumo_mensal * 0.40)
+elif consumo_mensal < 300:
+    print(consumo_mensal * 0.50)
+else:
+    print(consumo_mensal * 0.70)
