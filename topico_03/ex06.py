@@ -3,3 +3,11 @@
 # em maiúsculas e vice-versa.
 # Input: Fatec Rio Preto
 # Output: fATEC rIO pRETO
+
+frase = input('Digite uma frase: ')
+
+for letra in frase:
+    if letra.islower() == True:
+        print(letra.upper(), end='')
+    else:
+        print(letra.lower(), end='')
