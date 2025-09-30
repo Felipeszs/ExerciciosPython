@@ -6,8 +6,11 @@ Conteúdos e Exercícios da disciplina de Linguagem de Programação do curso de
 #### 1. Conteúdo Programático
 - [x] Tópico 01 - Variáveis, constantes, operadores e expressões (19/08/2025)
 - [x] Tópico 02 - Estruturas condicionais (02/09/2025)
-- [x] Tópico 03 - Estruturas de repetição (09/09/2025)
-- [ ] Tópico 04 - Lista, Tupla, Conjunto e Dicionário
-- [ ] Tópico 05 - Funções
-- [ ] Tópico 06 - Arquivo
-- [ ] Tópico 07 - Tipo definido pelo usuário (classes)
+- [x] Tópico 03 - Estruturas de repetição (09/09/2025 e 16/09/2025)
+- [x] Tópico 04 - Lista (30/09/2025)
+- [ ] Tópico 05 - Tupla
+- [ ] Tópico 06 - Conjunto
+- [ ] Tópico 07 - Dicionário
+- [ ] Tópico 08 - Funções
+- [ ] Tópico 09 - Arquivo
+- [ ] Tópico 10 - Tipo definido pelo usuário (classes)
