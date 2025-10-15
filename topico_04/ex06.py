@@ -4,3 +4,28 @@
 # ser mostrada as letras e as suas posições na palavra. 
 # Caso não exista, o usuário perderá uma chance. No total, 
 # o usuário terá 6 chances para acertar.
+
+palavra_certa = input('Digite uma palavra para o jogo da forca: ').lower()
+progresso = ['_'] * len(palavra_certa)
+quantidade_erros = 0
+quantidade_chances = 6
+
+while quantidade_erros < quantidade_chances:
+    print(f'Você tem {quantidade_chances - quantidade_erros} chances para acertar a palavra ')
+    print('palavra', ' '.join(progresso))
+    letra_tentativa = input('Digite uma letra: ').lower()
+    if letra_tentativa in palavra_certa:
+        for i in range(len(palavra_certa)):
+            if palavra_certa[i] == letra_tentativa:
+                progresso[i] = letra_tentativa
+        print(f"A letra '{letra_tentativa}' está na palavra!")
+    else:
+        print(f"A letra {letra_tentativa} não está na palavra")
+        quantidade_erros += 1
+    
+    if '_' not in progresso:
+        print("\n🎉 Parabéns! Você acertou a palavra:", palavra_certa)
+        break
+else:
+    print("\n😢 Suas chances acabaram. A palavra era:", palavra_certa)
+    
