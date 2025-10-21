@@ -10,9 +10,6 @@ frase = 'Python é incrível e Python é simples'
 dicionario = {}
 
 for palavra in frase.split():
-    if palavra not in dicionario:
-        dicionario[palavra] = 1
-    else:
-        dicionario[palavra] = dicionario.get(palavra) + 1
+    dicionario[palavra] = dicionario.get(palavra, 0) + 1
 
 print(dicionario)

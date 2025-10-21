@@ -13,3 +13,12 @@ sinonimos = {'estudante': 'aluno', 'feliz': 'contente', 'prova': 'exame'}
 # Exemplo:
 # Input: O estudante está feliz porque passou na prova 
 # Output: O aluno está contente porque passou na exame
+
+frase = 'O estudante está feliz porque passou na prova'
+
+palavras = frase.split()
+for index, palavra in enumerate(palavras):
+    if palavra in sinonimos:
+        palavras[index] = sinonimos[palavra]
+
+print(' '.join(palavras))
