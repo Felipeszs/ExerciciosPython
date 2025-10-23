@@ -2,7 +2,6 @@
 # Na primeira lista, deverá ser inserido o nome dos alunos.
 # Na segunda lista, na mesma posição, a nota do aluno. Em
 # seguida, mostre o nome dos alunos com a maior e a menor nota.
-<<<<<<< HEAD
 
 nome_alunos = []
 nota_alunos = []
@@ -28,17 +27,4 @@ print('\nAluno(s) com a menor nota:')
 for i in range(3):
     if nota_alunos[i] == menor_nota:
         print(f'{nome_alunos[i]} - {nota_alunos[i]}')
-=======
-nomes = []
-notas = []
 
-for i in range(5):
-    nomes.append(input('Digite o nome do aluno: '))
-    notas.append(float(input('Digite a nota do aluno: ')))
-
-nome_maior_nota = nomes[notas.index(max(notas))]
-nome_menor_nota = nomes[notas.index(min(notas))]
-
-print(nome_maior_nota, nome_menor_nota)
-
->>>>>>> 1c50802b07658cedb5ccde52674efa6de41d4c78

@@ -7,14 +7,9 @@
 # https://pt.wikipedia.org/wiki/Pangrama
 
 import string
-alfabeto = string.ascii_lowercase
 
 def isPangrama(frase):
-    for letra in alfabeto:
-        if letra not in frase.lower:
-            return False
-    return True
-
+    return set(string.ascii_lowercase).issubset(set(frase.lower()))
 
 
 # Use como exemplo a frase:

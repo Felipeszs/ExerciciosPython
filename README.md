@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Faculdade de Tecnologia de São José do Rio Preto
 ### Linguagem de Programação (Prof. Dr. Henrique Dezani)
 
@@ -15,7 +14,3 @@ Conteúdos e Exercícios da disciplina de Linguagem de Programação do curso de
 - [ ] Tópico 08 - Funções
 - [ ] Tópico 09 - Arquivo
 - [ ] Tópico 10 - Tipo definido pelo usuário (classes)
-=======
-# ExerciciosPython
-Exercícios de logica, utilizando a linguagem Python, está presente atividades de Conjuntos, Listas, Tuplas, manipulações de Strings. ETC.
->>>>>>> bb45a79fea337fd1c5da0497499ed9ae4cb5db96
