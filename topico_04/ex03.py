@@ -3,6 +3,7 @@
 # (pode variar de 0 até quantos trabalhos forem informados).
 # Por fim, mostre a média aritmética das notas obtidas.
 notas = []
+<<<<<<< HEAD
 i = 0
 notas_soma = 0
 while True:
@@ -44,3 +45,17 @@ print("\n--- Resultados ---")
 print(f"Notas informadas: {notas2}")
 print(f"Soma das notas: {soma_das_notas}")
 print(f"Média das notas: {media:.2f}")
+=======
+
+while True:
+    nota = float(input('Digite uma nota: '))
+    notas.append(nota)
+
+    continuar = input('Deseja informar outra nota [S/N]?')
+    if continuar.lower() == 'n':
+        break
+
+media = sum(notas) / len(notas)
+# print(round(media, 2))
+print(f'{media:.2f}')
+>>>>>>> 1c50802b07658cedb5ccde52674efa6de41d4c78

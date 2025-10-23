@@ -5,6 +5,7 @@
 # Caso não exista, o usuário perderá uma chance. No total, 
 # o usuário terá 6 chances para acertar.
 
+
 palavra_certa = input('Digite uma palavra para o jogo da forca: ').lower()
 progresso = ['_'] * len(palavra_certa)
 quantidade_erros = 0
@@ -29,3 +30,31 @@ while quantidade_erros < quantidade_chances:
 else:
     print("\n😢 Suas chances acabaram. A palavra era:", palavra_certa)
     
+##OU TBM PODE SER 
+palavra = input('Digite uma palavra: ')
+
+user = ['_'] * len(palavra)
+
+chances = 6
+
+while chances > 0:
+
+    print(''.join(user))
+
+    letra = input('Digite uma letra: ')
+
+    if letra not in palavra:
+        chances -= 1
+        continue
+
+    for index, _letra in enumerate(palavra):
+        if letra == _letra:
+            user[index] = _letra
+
+    if user.count('_') == 0:
+        print('Você venceu!')
+        break
+
+else:
+    print('Você perdeu!')
+
