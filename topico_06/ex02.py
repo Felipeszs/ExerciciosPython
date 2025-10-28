@@ -5,3 +5,15 @@
 # 2) Um conjunto resultante da diferença entre x e y (todos
 # os elementos de x que não existam em y).
 # 3) Um conjunto resultante interseção entre x e y
+
+x = {1, 2, 3}
+y = {3, 4, 5}
+
+# 
+print(x | y) # x.union(y)
+
+# 
+print(x - y) # x.difference(y)
+
+#
+print(x & y) # x.intersection(y)
