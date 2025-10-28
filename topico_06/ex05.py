@@ -17,4 +17,4 @@ alfabeto = set(alfabeto)
 
 frase = set(frase.lower())
 
-print(alfabeto >= frase)
+print(frase >= alfabeto)
