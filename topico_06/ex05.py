@@ -8,11 +8,12 @@
 
 import string
 
-def isPangrama(frase):
-    return set(string.ascii_lowercase).issubset(set(frase.lower()))
-
 
 # Use como exemplo a frase:
 frase = 'Jane quer LP, fax, CD, giz, TV e bom whisky'
 
-print(isPangrama(frase))
+alfabeto = set()
+
+frase = set(frase.lower())
+
+print(frase >= alfabeto)
